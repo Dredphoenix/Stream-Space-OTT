@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import 'tailwind-scrollbar-hide/v4';
+
+
+
+body {
+  margin: 0;
+  background:  hsla(240, 9%, 2%, 0.96);
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slider {
+  animation: slider 60s linear infinite;
+}
